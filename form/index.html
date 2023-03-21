@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="" method="GET">
+        <label for="username"> Your name</label>
+        <input type="text" name="user-name" id="username"/>
+        <label for="useremail">Email address</label>
+        <input type="email" name="user-email" id="useremail" />
+        <label for="userage">Age</label>
+        <input type="number" id="userage" name="user-age"/>
+        <label for="userpassword">Password</label>
+        <input type="password" id="userpassword" name="user-password" />
+        <label for="datetype">Date</label>
+        <input type="date" name="date-type" id="datetype" />
+        <hr>
+        <h2>How should we verify your account?</h2>
+        <div class="form-control-inline">
+            <input type="radio" id="verify-sms" name="verify" value="sms"/>
+            <label for="verify-sms">via sms</label>
+        </div>
+        <div class="form-control-inline">
+            <input type="radio" id="verify-phonecall" name="verify" value="phone"/>
+            <label for="verify-phonecall">via phonecall</label>
+        </div>
+        <div class="form-control-inline">
+            <input type="radio" id="verify-email" name="verify" value="email"/>
+            <label for="verify-email">via email</label>
+        </div>
+
+        <div class="form-control-inline">
+            <input type="checkbox" id="agree-terms" name="terms" />
+            <label for="agree-terms">Agree to terms?</label>
+        </div>
+        
+        <button> save </button>
+    </form>
+</body>
+</html>

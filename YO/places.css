@@ -1,0 +1,10 @@
+header {
+    position: static;
+
+}
+
+
+main li img {
+    width: 300px;
+    height: 200px;
+}
